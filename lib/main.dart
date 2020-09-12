@@ -34,7 +34,9 @@ class MyApp extends StatelessWidget {
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         home: ProductsOverview(),
-        routes: {ProductDetail.routeName: (ctx) => ProductDetail()},
+        routes: {
+          ProductDetail.routeName: (ctx) => ProductDetail(),
+        },
       ),
     );
   }
