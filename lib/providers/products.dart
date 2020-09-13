@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_shop/mock/products.dart';
+import '../mock/products.dart';
 import './product.dart';
 
 class ProductsProvider with ChangeNotifier {
